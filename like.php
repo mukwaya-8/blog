@@ -9,7 +9,7 @@ if (!isset($_SESSION['id'])) {
     exit;
 }
 
-// make it more good
+// make it more good and more flexgo 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $blog_id = intval($_POST['blog_id']); // safer
