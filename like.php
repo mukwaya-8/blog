@@ -9,6 +9,8 @@ if (!isset($_SESSION['id'])) {
     exit;
 }
 
+// make it more good
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $blog_id = intval($_POST['blog_id']); // safer
     $user_id = intval($_SESSION['id']);
